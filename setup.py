@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/dylan14567/scienlib",
     scripts = ['configserver'],
     project_urls={
-        "Bug Tracker": "https://github.com/dylan14567/configserver/issues",
+        "Bug Tracker": "https://github.com/dylan14567/scienlib/issues",
     },
     install_requires=[
         "colorama",
