@@ -12,7 +12,6 @@ setuptools.setup(
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/dylan14567/scienlib",
-    scripts = ['configserver'],
     project_urls={
         "Bug Tracker": "https://github.com/dylan14567/scienlib/issues",
     },
