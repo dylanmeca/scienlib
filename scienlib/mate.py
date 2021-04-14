@@ -29,16 +29,6 @@ class basic:
          average = sum / len (l)
          return average
 
-class red:
 
-      def __init__(self):
-             #print ("Hello World")
-             return
-
-      def sigmoide (self,z):
-             self.z = z
-             s = math.exp (-z)
-             r = (1/(1+s)
-             return r
 
        
