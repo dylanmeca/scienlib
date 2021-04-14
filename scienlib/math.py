@@ -35,7 +35,8 @@ class physical:
       def __init__(self):
              return
    
-      def sigmoide(x):
+      def sigmoide(self,x):
+          self.x = x
           return 1/(1 + math.exp(-x))
 
 
