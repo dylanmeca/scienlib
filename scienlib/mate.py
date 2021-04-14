@@ -1,6 +1,6 @@
 import math
 
-class Basic:
+class basic:
 
       def __init__(self):
          #print ("Hello World")
