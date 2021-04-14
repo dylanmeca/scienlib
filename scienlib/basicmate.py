@@ -7,4 +7,12 @@ def divider(n,c):
              return True
        else:
              return False
+
+def average(l):
+       sum = 0
+       for element in l:
+             sum += element
+
+       average = sum / len (l)
+       return average
        
