@@ -43,7 +43,7 @@ You can also look at the list of all [contributors](https://github.com/dylan1456
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/dylan14567/scienlib/blob/main/CONTRIBUTING.md) for details of our code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](https://github.com/dylan14567/scienlib/blob/main/.github/CONTRIBUTING.md) for details of our code of conduct, and the process for submitting pull requests.
 
 ## License
 
