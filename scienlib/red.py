@@ -1,6 +1,6 @@
 import math
 
-class Red:
+class red:
 
       def __init__(self):
              #print ("Hello World")
