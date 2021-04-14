@@ -37,7 +37,8 @@ class red:
 
       def sigmoide (self,z):
              self.z = z
-             r = (1/(1+math.exp (-z))
+             s = math.exp (-z)
+             r = (1/(1+s)
              return r
 
        
