@@ -6,5 +6,6 @@ class Red:
              #print ("Hello World")
              return
 
-      def sigmoide (z):
+      def sigmoide (self,z):
+             self.z = z
              return (1/(1+math.exp (-z))
