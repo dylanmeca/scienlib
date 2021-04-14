@@ -30,7 +30,7 @@ class basic:
          return average
 
 
-class physical:
+class fisic:
 
       def __init__(self):
              return
