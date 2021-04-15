@@ -7,5 +7,5 @@ velocity = basic.velocity
 divider = basic.divider
 average = basic.average
 
-sigmoide = fisic.sigmoide
+sigmoide = fisic.sigmoid
 
