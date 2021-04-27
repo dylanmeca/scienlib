@@ -17,6 +17,7 @@ The requirements to use the system is to have the following python modules insta
 wheel
 requests
 python-nmap
+speedtest-cli
 ```
 
 ## Installation
