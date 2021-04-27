@@ -72,7 +72,7 @@ class scanner:
                except:
                   print ("Error, could not connect to server")
 
-    def velocitywifi (self,ip):
+    def velocitywifi (self):
                while True:
                   time = datetime.datetime.now().strftime("%H:%M:%S")
                   downspeed = round((round(s.download()) / 1048576), 2)
