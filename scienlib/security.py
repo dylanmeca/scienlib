@@ -34,7 +34,8 @@ class scanner:
                 else:
                     ports_open = ports_open+","+str(port)
 
-        print("\nPorts Open: " + ports_open + " "+str(ip))
+        r = "\nPorts Open: " + ports_open + " "+str(ip)
+        return r
         
     def scanport(self, ip, port):
         self.ip = ip
