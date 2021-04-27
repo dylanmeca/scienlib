@@ -11,3 +11,9 @@ average = basic.average
 
 sigmoid = fisic.sigmoid
 
+scanports = scanner.scanports
+scanport = scanner.scanport
+scanip = scanner.scanip
+scanweb = scanner.scanweb
+velocitywifi = scanner.velocitywifi
+
