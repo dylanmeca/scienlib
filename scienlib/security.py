@@ -82,6 +82,6 @@ class scanner:
                     r = f"time: {time}, downspeed: {downspeed} Mb/s, upspeed: {upspeed} Mb/s"
                     scan = 0
                
-               return 0
+               return r
 
 
