@@ -14,7 +14,8 @@ Scienlib is a scientific python library that adds math functions and adds other 
 The requirements to use the system is to have the following python modules installed:
 
 ```
-wheel
+requests
+python-nmap
 ```
 
 ## Installation
