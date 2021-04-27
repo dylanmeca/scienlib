@@ -9,6 +9,7 @@ import requests
 class scanner:
 
     def ___init__(self):
+        #print ("Welcome")
         return
 
     def scanports(self, ip):
@@ -18,8 +19,8 @@ class scanner:
         results = nm.scan(ip, arguments="--top-ports 1000 -sT -n -Pn -T4")
         count = 0
         #print (results)
-        return "\nHost : %s" % ip)
-        return "State : %s" % nm[ip].state())
+        print("\nHost : %s" % ip)
+        print("State : %s" % nm[ip].state())
         for proto in nm[ip].all_protocols():
             print("Protocol : %s" % proto)
             print()
@@ -34,21 +35,22 @@ class scanner:
                 else:
                     ports_open = ports_open+","+str(port)
 
-        return ports_open + " "+str(ip)
-
+        print("\nPorts Open: " + ports_open + " "+str(ip))
+        
     def scanport(self, ip, port):
         self.ip = ip
         self.port = port
         nm = nmap.PortScanner()
         nm.scan(ip, port, arguments='-sV --version-intensity 3')
-        return "Command executed: {}".format(nm.command_line())
-        return "Protocols used: {}".format(nm[ip].all_protocols())
-        return "Machine status: {}".format(nm[ip].state())
+        print("Command executed: {}".format(nm.command_line()))
+        print("Protocols used: {}".format(nm[ip].all_protocols()))
+        print("Machine status: {}".format(nm[ip].state()))
 
         for ports in nm[ip]['tcp'].keys():
             for data in nm[ip]['tcp'][ports]:
-                return data + " : " + nm[ip]['tcp'][ports][data]
+                print(data + " : " + nm[ip]['tcp'][ports][data])
 
+        
     def scanip(self, ip):
         self.ip = ip
         url = 'https://ipinfo.io/'+ip+'/json'
@@ -56,8 +58,9 @@ class scanner:
         loadurl = json.load(openurl)
 
         for i in loadurl:
-            return i + " : " + loadurl[i]
+            print(i + " : " + loadurl[i])
 
+        
     def scanweb (self,link):
                try:
                   self.link = link
@@ -65,7 +68,7 @@ class scanner:
                   header = dict(target.headers)
                   for x in header:
                        print (x+ " : "+header[x])
-                 
+                
                except:
-                  return "Error, could not connect to server"
+                  print ("Error, could not connect to server")
  
