@@ -5,6 +5,8 @@ import json
 import nmap
 import urllib.request
 import requests
+import datetime
+import speedtest
 
 class scanner:
 
@@ -69,4 +71,12 @@ class scanner:
                 
                except:
                   print ("Error, could not connect to server")
- 
+
+    def velocitywifi (self,ip):
+               while True:
+                  time = datetime.datetime.now().strftime("%H:%M:%S")
+                  downspeed = round((round(s.download()) / 1048576), 2)
+                  upspeed = round((round(s.upload()) / 1048576), 2)
+                  return f"time: {time}, downspeed: {downspeed} Mb/s, upspeed: {upspeed} Mb/s"
+
+
