@@ -3,6 +3,7 @@ from .security import *
 
 basic = basic()
 fisic = fisic()
+scanner = scanner ()
 
 velocity = basic.velocity
 divider = basic.divider
