@@ -6,8 +6,6 @@ import urllib.request
 import json
 import requests
 
-init(autoreset=True)
-
 class scanner:
 
     def ___init__(self):
