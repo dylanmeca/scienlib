@@ -73,15 +73,9 @@ class scanner:
                   print ("Error, could not connect to server")
 
     def velocitywifi (self):
-               scan = 1
                s = speedtest.Speedtest()
-               while scan == 1:
-                    time = datetime.datetime.now().strftime("%H:%M:%S")
-                    downspeed = round((round(s.download()) / 1048576), 2)
-                    upspeed = round((round(s.upload()) / 1048576), 2)
-                    r = f"time: {time}, downspeed: {downspeed} Mb/s, upspeed: {upspeed} Mb/s"
-                    scan = 0
-               
+               time = datetime.datetime.now().strftime("%H:%M:%S")
+               downspeed = round((round(s.download()) / 1048576), 2)
+               upspeed = round((round(s.upload()) / 1048576), 2)
+               r = f"time: {time}, downspeed: {downspeed} Mb/s, upspeed: {upspeed} Mb/s"
                return r
-
-
