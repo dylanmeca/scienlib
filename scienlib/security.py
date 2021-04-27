@@ -1,9 +1,9 @@
 import os
 import sys
 import time
+import json
 import nmap
 import urllib.request
-import json
 import requests
 
 class scanner:
