@@ -1,1 +1,4 @@
 wheel
+colorama
+requests
+python-nmap
