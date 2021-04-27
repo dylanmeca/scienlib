@@ -9,7 +9,6 @@ import requests
 class scanner:
 
     def ___init__(self):
-        #print ("Welcome")
         return
 
     def scanports(self, ip):
