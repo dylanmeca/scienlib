@@ -2,8 +2,8 @@ import os
 import sys
 import time
 import json
-import nmap
 import urllib.request
+import nmap
 import requests
 import datetime
 import speedtest
