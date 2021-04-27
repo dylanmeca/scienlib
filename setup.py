@@ -18,7 +18,6 @@ setuptools.setup(
     install_requires=[
         "python-nmap",
         "requests",
-        "wheel",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
