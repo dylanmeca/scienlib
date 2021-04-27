@@ -49,7 +49,6 @@ class scanner:
             for data in nm[ip]['tcp'][ports]:
                 print(data + " : " + nm[ip]['tcp'][ports][data])
 
-        
     def scanip(self, ip):
         self.ip = ip
         url = 'https://ipinfo.io/'+ip+'/json'
@@ -59,7 +58,6 @@ class scanner:
         for i in loadurl:
             print(i + " : " + loadurl[i])
 
-        
     def scanweb (self,link):
                try:
                   self.link = link
