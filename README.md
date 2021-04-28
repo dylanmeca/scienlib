@@ -25,10 +25,7 @@ To install scienlib on linux run these commands on your Linux Terminal.
 
 ```shell
 
-git clone https://github.com/dylan14567/scienlib
-cd scienlib
-chmod +x *;ls
-python3 setup.py install
+pip3 install scienlib
 
 ```
 
