@@ -14,6 +14,7 @@ setuptools.setup(
     url="https://github.com/dylan14567/scienlib",
     project_urls={
         "Bug Tracker": "https://github.com/dylan14567/scienlib/issues",
+        "Documentation": "https://dylan14567.github.io/2021/04/28/scienlib-documentation.html",
     },
     install_requires=[
         "wheel",
