@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setuptools.setup(
     name="scienlib", 
-    version="1.0",
+    version="1.1",
     author="dylan14567",
     author_email="",
     description="scienlib is a scientific python library that adds math functions and adds other functions such as physics",
