@@ -1,3 +1,12 @@
+---
+layout: default
+keywords:
+  - scienlib
+  - scienlib documentation
+  - scien
+  - lib
+  - documentation
+---
 
 [![Build Status](https://img.shields.io/github/stars/dylan14567/scienlib.svg)](https://github.com/dylan14567/scienlib)
 [![License](https://img.shields.io/github/license/dylan14567/scienlib.svg)](https://github.com/dylan14567/scienlib/blob/main/.github/LICENSE)
