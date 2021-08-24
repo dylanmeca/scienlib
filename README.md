@@ -1,9 +1,9 @@
 # scienlib
-[![Build Status](https://img.shields.io/github/stars/dylan14567/scienlib.svg)](https://github.com/dylan14567/scienlib)
-[![License](https://img.shields.io/github/license/dylan14567/scienlib.svg)](https://github.com/dylan14567/scienlib/blob/main/.github/LICENSE)
-[![dylan14567](https://img.shields.io/badge/author-dylan14567-green.svg)](https://github.com/dylan14567)
-[![bug_report](https://img.shields.io/badge/bug-report-red.svg)](https://github.com/dylan14567/scienlib/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
-[![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylan14567/scienlib/blob/main/.github/SECURITY.md)
+[![Build Status](https://img.shields.io/github/stars/dylanmeca/scienlib.svg)](https://github.com/dylanmeca/scienlib)
+[![License](https://img.shields.io/github/license/dylanmeca/scienlib.svg)](https://github.com/dylanmeca/scienlib/blob/main/.github/LICENSE)
+[![dylanmeca](https://img.shields.io/badge/author-dylanmeca-green.svg)](https://github.com/dylanmeca)
+[![bug_report](https://img.shields.io/badge/bug-report-red.svg)](https://github.com/dylanmeca/scienlib/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
+[![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylanmeca/scienlib/blob/main/.github/SECURITY.md)
 [![Python](https://img.shields.io/badge/language-Python%20-yellow.svg)](https://www.python.org)
 
 Scienlib is a scientific Python library that adds mathematical functions and adds other functions like physics, but also has cybersecurity and other functions.
@@ -35,15 +35,15 @@ Ready
 
 ## Authors
 
-* **Dylan Meca** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
+* **Dylan Meca** - *Initial Work* - [dylanmeca](https://github.com/dylanmeca)
 
-You can also look at the list of all [contributors](https://github.com/dylan14567/scienlib/contributors) who have participated in this project.
+You can also look at the list of all [contributors](https://github.com/dylanmeca/scienlib/contributors) who have participated in this project.
 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/dylan14567/scienlib/blob/main/.github/CONTRIBUTING.md) for details of our code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](https://github.com/dylanmeca/scienlib/blob/main/.github/CONTRIBUTING.md) for details of our code of conduct, and the process for submitting pull requests.
 
 ## License
 
-The license for this project is [MIT](https://github.com/dylan14567/scienlib/blob/main/LICENSE)
+The license for this project is [MIT](https://github.com/dylanmeca/scienlib/blob/main/LICENSE)
