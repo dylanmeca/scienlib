@@ -46,4 +46,4 @@ Please read [CONTRIBUTING.md](https://github.com/dylanmeca/scienlib/blob/main/.g
 
 ## License
 
-The license for this project is [MIT](https://github.com/dylanmeca/scienlib/blob/main/LICENSE)
+The license for this project is [MIT](https://github.com/dylanmeca/scienlib/blob/main/.github/LICENSE)
