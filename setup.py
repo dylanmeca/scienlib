@@ -18,9 +18,6 @@ setuptools.setup(
     },
     install_requires=[
         "wheel",
-        "requests",
-        "python-nmap",
-        "speedtest-cli",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
